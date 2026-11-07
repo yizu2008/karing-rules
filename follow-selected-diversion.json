@@ -1,0 +1,40 @@
+{
+  "rules": [
+    {
+      "domain_suffix": [
+        "metaaivm.com"
+      ],
+      "name": "Muse后端-跟随所选",
+      "or": true,
+      "outbound": "currentSelected",
+      "switch": true
+    },
+    {
+      "domain_suffix": [
+        "meta.ai",
+        "muse.ai"
+      ],
+      "name": "Muse-跟随所选",
+      "or": true,
+      "outbound": "currentSelected",
+      "switch": true
+    },
+    {
+      "domain_suffix": [
+        "metaaivm.com",
+        "wa.me",
+        "whatsapp.biz",
+        "whatsapp.cc",
+        "whatsapp.com",
+        "whatsapp.info",
+        "whatsapp.net",
+        "whatsapp.org",
+        "whatsapp.tv"
+      ],
+      "name": "WhatsApp-跟随所选",
+      "or": true,
+      "outbound": "currentSelected",
+      "switch": true
+    }
+  ]
+}
