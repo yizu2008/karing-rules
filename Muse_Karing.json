@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "agent.meta.ai",
+        "ai.meta.com",
+        "muse.ai",
+        "platform.muse.ai",
+        "www.muse.ai"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "meta.ai",
+        "muse.ai"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "muse.ai"
+      ]
+    }
+  ]
+}
