@@ -3,12 +3,14 @@
   "rules": [
     {
       "domain": [
-        "graph.facebook.com"
+        "graph.facebook.com",
+        "hatch.metaaivm.com"
       ]
     },
     {
       "domain_suffix": [
         "bintray.com",
+        "metaaivm.com",
         "wa.me",
         "whatsapp-plus.info",
         "whatsapp-plus.me",
