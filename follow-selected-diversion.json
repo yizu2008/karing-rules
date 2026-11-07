@@ -35,6 +35,25 @@
       "or": true,
       "outbound": "currentSelected",
       "switch": true
+    },
+    {
+      "name": "Safari-跟随所选",
+      "outbound": "currentSelected",
+      "switch": true,
+      "or": true,
+      "domain_suffix": [
+        "apple.com",
+        "chatgpt.com",
+        "claude.ai",
+        "github.com",
+        "google.com",
+        "openai.com",
+        "x.com",
+        "youtube.com"
+      ],
+      "rule_set_build_in": [
+        "geosite:geolocation-!cn"
+      ]
     }
   ]
 }
