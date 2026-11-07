@@ -5,6 +5,7 @@
       "domain": [
         "agent.meta.ai",
         "ai.meta.com",
+        "hatch.metaaivm.com",
         "muse.ai",
         "platform.muse.ai",
         "www.muse.ai"
@@ -13,6 +14,7 @@
     {
       "domain_suffix": [
         "meta.ai",
+        "metaaivm.com",
         "muse.ai"
       ]
     },
